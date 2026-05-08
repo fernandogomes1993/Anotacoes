@@ -30,4 +30,12 @@ def exercicio_04():
     else:
         print(f'o numero {numero_04} elevado ao quadrado {numero_04 ** 2}')
 #exercicio_04()
-#def exercicio_05():
+def exercicio_05():
+    numero_02 = int(input('digite um numero: '))       
+    if numero_02 % 5 == 0:
+        print('o numero informado e divisiveis por 5')
+    else:
+        print('o numero informado não e divisivel por 5')
+#exercicio_05()
+def exercicio_06():
+    numero_02 = int(input('digite um numero: '))
