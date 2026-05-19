@@ -39,3 +39,31 @@ def exercicio_05():
 #exercicio_05()
 def exercicio_06():
     numero_02 = int(input('digite um numero: '))
+    numero_03 = int(input('digite um numero: '))
+    
+    if numero_02 % numero_03 == 0:
+        print('o numero e divisivel ')
+    else:
+        print('o numero não e divisivel')
+def exercicio_07():
+    valores = []
+    
+    while len(valores) < 3:
+        valor = int(input(f'informe {len(valores)+1}º numero inteiro: '))
+        if valor not in valores:
+            valores.append(valor)
+        else:
+            print()
+            print('numero invalido informe outro')
+            print()
+    valores = sorted(valores)
+    A = valores[0]
+    B = valores[2]
+    C = valores[1]
+    print()
+        
+    print('Menor: ',A)      
+    print('Maior: ',B) 
+    print('Inter: ',C)      
+
+   
