@@ -65,5 +65,20 @@ def exercicio_07():
     print('Menor: ',A)      
     print('Maior: ',B) 
     print('Inter: ',C)      
+def exercicio_08():
+    numero_inteiro = int(input('informe um numero inteiro: '))
+    if numero_inteiro >= 20 and numero_inteiro <= 90:
+        print(f'o numero {numero_inteiro} esta entre 20 e 90')
+    else:
+        print('o numero não esta na faixa de valores')
+def exercicio_09():
+    valor_venda = float(input('forme o valor de venda: '))  
+    if valor_venda < 10:
+        print(f'valor da venda: R$ {valor_venda + (valor_venda * 0.07)}')
+    elif valor_venda < 30:
+        print(f'valor da venda: R$ {valor_venda + (valor_venda * 0.05)}')
+    elif valor_venda < 50:
+        print(f'valor da venda: R$ {valor_venda + (valor_venda * 0.04)}')
+    elif valor_venda >= 50:
+        print(f'valor da venda: R$ {valor_venda + (valor_venda * 0.03)}')
 
-   
