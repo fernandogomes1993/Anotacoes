@@ -81,4 +81,36 @@ def exercicio_09():
         print(f'valor da venda: R$ {valor_venda + (valor_venda * 0.04)}')
     elif valor_venda >= 50:
         print(f'valor da venda: R$ {valor_venda + (valor_venda * 0.03)}')
-
+def exercicio_09():
+    destino = int(input('''
+        
+1 - Região Norte
+2 - Região Nordeste 
+3 - Região Centro-Oeste
+4 - Região Sul
+escolha o destino:  '''))
+    
+    if destino == 1:
+        ida_volta = int(input('''
+1 - Ida(preço: R$ 500)
+2 - Ida e volta(preço: R$ 900)
+   escolha opção: '''))
+        print('Boa viagem....')
+    elif destino == 2:
+        ida_volta = int(input('''
+1 - Ida(preço: R$ 350)
+2 - Ida e volta(preço: R$ 650)
+   escolha opção: '''))
+        print('Boa viagem....')
+    elif destino == 3:
+        ida_volta = int(input('''
+1 - Ida(preço: R$ 350)
+2 - Ida e volta(preço: R$ 600)
+   escolha opção: '''))
+        print('Boa viagem....')
+    elif destino == 4:
+        ida_volta = int(input('''
+1 - Ida(preço: R$ 300)
+2 - Ida e volta(preço: R$ 550)
+   escolha opção: '''))
+        print('Boa viagem....')
